@@ -324,4 +324,10 @@ K 6VA PCB Transformer Dual Secondary
 F http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
 $ENDCMP
 #
+$CMP TRANSFO-POE
+D LAN-Transformer WE-LAN 10/100 BaseT PoE
+K LAN Transformer PoE
+F http://katalog.we-online.de/pbs/datasheet/7499211121A.pdf
+$ENDCMP
+#
 #End Doc Library

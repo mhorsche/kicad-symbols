@@ -102,6 +102,11 @@ K PCI 5V 3.3V 3V3
 F http://pinouts.ru/Slots/PCI_pinout.shtml
 $ENDCMP
 #
+$CMP C30ABC
+D Connector Europe, 30 contacts, ranges A,B,C
+K connector DIN 41612 IEC 60603-2
+$ENDCMP
+#
 $CMP C64AB
 D Connector Europe 64 contacts ranges A,B
 K connector DIN
@@ -918,6 +923,12 @@ $CMP RJ45-TRANSFO
 D RJ45 with transformer + leds WURTH
 K RJ45
 F ~
+$ENDCMP
+#
+$CMP RJ45-TRANSFO-POE
+D RJ45 with transformer, PoE and LEDs WURTH
+K RJ45 PoE
+F http://katalog.we-online.de/pbs/datasheet/7499211121A.pdf
 $ENDCMP
 #
 $CMP RJ45_LEDS

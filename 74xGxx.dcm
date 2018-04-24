@@ -14,8 +14,8 @@ $ENDCMP
 #
 $CMP 74AHC1G04
 D Single NOT Gate, Low-Voltage CMOS
-K Single Gate NOT LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+K single not inverter
+F http://www.ti.com/lit/ds/symlink/sn74ahc1g04.pdf
 $ENDCMP
 #
 $CMP 74AHC1G08
@@ -54,12 +54,6 @@ K Single Gate EX-OR LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
-$CMP 74AHC1GU04
-D 74AHC1G04, Single NOT Gate, Low-Voltage CMOS
-K Single Gate NOT LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
 $CMP 74AHCT1G00
 D Single NAND Gate, Low-Voltage CMOS
 K Single Gate NAND LVC CMOS
@@ -69,12 +63,6 @@ $ENDCMP
 $CMP 74AHCT1G02
 D Single NOR Gate, Low-Voltage CMOS
 K Single Gate NOR LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
-$CMP 74AHCT1G04
-D Single NOT Gate, Low-Voltage CMOS
-K Single Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -114,12 +102,6 @@ K Single Gate EX-OR LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
-$CMP 74AHCT1GU04
-D 74AHCT1G04, Single NOT Gate, Low-Voltage CMOS
-K Single Gate NOT LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
 $CMP 74AUC1G00
 D Single NAND Gate, Low-Voltage CMOS
 K Single Gate NAND LVC CMOS
@@ -129,12 +111,6 @@ $ENDCMP
 $CMP 74AUC1G02
 D Single NOR Gate, Low-Voltage CMOS
 K Single Gate NOR LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
-$CMP 74AUC1G04
-D Single NOT Gate, Low-Voltage CMOS
-K Single Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -231,12 +207,6 @@ $ENDCMP
 $CMP 74AUC1G86
 D Single EX-OR Gate, Low-Voltage CMOS
 K Single Gate EX-OR LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
-$CMP 74AUC1GU04
-D 74AUC1G04, Single NOT Gate, Low-Voltage CMOS
-K Single Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -360,12 +330,6 @@ K Single Gate NOR LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
-$CMP 74AUP1G04
-D Single NOT Gate, Low-Voltage CMOS
-K Single Gate NOT LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
 $CMP 74AUP1G06
 D Single NOT Gate w/ Open Drain, Low-Voltage CMOS
 K Single Gate NOT LVC CMOS Open Drain
@@ -474,12 +438,6 @@ K Configurable Single Gate LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
-$CMP 74AUP1GU04
-D 74AUP1G04, Single NOT Gate, Low-Voltage CMOS
-K Single Gate NOT LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
 $CMP 74CB3T1G125
 D Single FET Bus Switch
 K Single FET Bus Switch
@@ -525,12 +483,6 @@ $ENDCMP
 $CMP 74LVC1G02
 D Single NOR Gate, Low-Voltage CMOS
 K Single Gate NOR LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
-$CMP 74LVC1G04
-D Single NOT Gate, Low-Voltage CMOS
-K Single Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -747,12 +699,6 @@ $ENDCMP
 $CMP 74LVC1G99
 D Configurable Multi-Function Single Gate, Low-Voltage CMOS
 K Configurable Single Gate LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
-$CMP 74LVC1GU04
-D 74LVC1G04, Single NOT Gate, Low-Voltage CMOS
-K Single Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
