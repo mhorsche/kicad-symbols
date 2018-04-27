@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 749013011
+D LAN-Transformer WE-LAN PoE
+K Transformer LAN PoE
+F https://katalog.we-online.de/pbs/datasheet/749013011A.pdf
+$ENDCMP
+#
 $CMP ADT1-1
 D 0.15-400MHz 1:1 RF Transformer, Balanced to Balanced, CD542
 K Mini-Circuits RF Transformer
@@ -322,6 +328,11 @@ $CMP TEZ6.0-D-2
 D TEZ6.0/D/x-x, 6VA, Dual Secondary, Cast Resin Transformer, PCB
 K 6VA PCB Transformer Dual Secondary
 F http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+$ENDCMP
+#
+$CMP TRANSFO-POE
+D LAN-Transformer PoE
+K Transformer LAN PoE
 $ENDCMP
 #
 #End Doc Library

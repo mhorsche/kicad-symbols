@@ -78,12 +78,6 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
-$CMP 8P8C_Shielded
-D RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
 $CMP 8P8C_LED
 D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45
 K 8P8C RJ female connector led
@@ -93,6 +87,12 @@ $ENDCMP
 $CMP 8P8C_LED_Shielded
 D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded
 K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
+$CMP 8P8C_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded
+K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
@@ -196,24 +196,6 @@ $CMP Bus_PCI_32bit_Universal
 D PCI bus connector for universal 5V/3.3V cards
 K PCI 5V 3.3V 3V3
 F http://pinouts.ru/Slots/PCI_pinout.shtml
-$ENDCMP
-#
-$CMP C64AB
-D Connector Europe 64 contacts ranges A,B
-K connector DIN
-F  ~
-$ENDCMP
-#
-$CMP C64AC
-D Connector Europe 64 contacts, ranges A,B,C
-K connector DIN
-F  ~
-$ENDCMP
-#
-$CMP C96ABC
-D Connector Europe, 96 contacts, ranges A,B,C
-K connector
-F  ~
 $ENDCMP
 #
 $CMP CUI_PD-30
@@ -930,6 +912,36 @@ K circular DIN connector
 F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
 $ENDCMP
 #
+$CMP DIN41612_C30ABC
+D Connector Europe, DIN41612, 30 contacts, ranges A,B,C
+K connector DIN41612
+F  ~
+$ENDCMP
+#
+$CMP DIN41612_C64AB
+D Connector Europe, DIN41612, 64 contacts, ranges A,B
+K connector DIN41612
+F  ~
+$ENDCMP
+#
+$CMP DIN41612_C64AC
+D Connector Europe, DIN41612, 64 contacts, ranges A,C
+K connector DIN41612
+F  ~
+$ENDCMP
+#
+$CMP DIN41612_C96ABC
+D Connector Europe, DIN41612, 96 contacts, ranges A,B,C
+K connector DIN41612
+F  ~
+$ENDCMP
+#
+$CMP DIN41612_H11
+D Connector Europe, DIN41612, 11 contacts
+K connector DIN41612
+F  ~
+$ENDCMP
+#
 $CMP HDMI_A
 D HDMI type A connector
 K hdmi conn
@@ -1060,18 +1072,6 @@ $CMP Mini-DIN-8
 D 8-pin Mini-DIN connector
 K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
-$ENDCMP
-#
-$CMP RJ9
-D RJ connector, 4P4C (4 positions 4 connected)
-K 4P4C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ9_Shielded
-D RJ connector, 4P4C (4 positions 4 connected), Shielded
-K 4P4C RJ female connector
-F ~
 $ENDCMP
 #
 $CMP RJ10
@@ -1311,6 +1311,18 @@ $ENDCMP
 $CMP RJ61_Shielded
 D RJ connector, 8P8C (8 positions 8 connected), Shielded
 K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ9
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ9_Shielded
+D RJ connector, 4P4C (4 positions 4 connected), Shielded
+K 4P4C RJ female connector
 F ~
 $ENDCMP
 #
