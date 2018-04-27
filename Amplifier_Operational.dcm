@@ -363,7 +363,7 @@ $ENDCMP
 $CMP LTC6081xMS8
 D Precision Dual CMOS Rail-to-Rail Input/Output Amplifiers, MSOP-8
 K dual opamp
-F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/60812fd.pdf
 $ENDCMP
 #
 $CMP LTC6082xDHC
@@ -378,6 +378,18 @@ K quad opamp
 F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
 $ENDCMP
 #
+$CMP LTC6242
+D Quad 18MHz, Low Noise, Rail-to-Rail Output, CMOS Op Amps
+K quad opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/624012fe.pdf
+$ENDCMP
+#
+$CMP LTC6253xMS8
+D 720MHz, 3.5mA Power, Efficient Rail-to-Rail, I/O Op Amps
+K dual opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/625234fc.pdf
+$ENDCMP
+#
 $CMP LTC6362xDD
 D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, DFN-8
 K single differential opamp
@@ -388,6 +400,24 @@ $CMP LTC6362xMS8
 D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, DFN-8
 K single differential opamp
 F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
+$ENDCMP
+#
+$CMP LTC6403xUD-1
+D 200MHz, Low Noise, Low Power Fully Differential, Input/Output Amplifier/Driver
+K single differential opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/64031fb.pdf
+$ENDCMP
+#
+$CMP LTC6406xMS8
+D 3GHz, Low Noise, Rail-to-Rail Input Differential Amplifier/Driver
+K differential opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6406fc.pdf
+$ENDCMP
+#
+$CMP LTC6406xUD
+D Low-Noise, Precision, 150-MHz, Fully Differential Amplifier
+K single differential opamp
+F http://www.ti.com/lit/ds/symlink/ths4551.pdf
 $ENDCMP
 #
 $CMP MAX4238ASA
@@ -958,6 +988,12 @@ $CMP SA5532
 D Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/ne5532.pdf
+$ENDCMP
+#
+$CMP THS4551xRGT
+D Low-Noise, Precision, 150-MHz, Fully Differential Amplifier
+K single differential opamp
+F http://www.ti.com/lit/ds/symlink/ths4551.pdf
 $ENDCMP
 #
 $CMP THS4631D

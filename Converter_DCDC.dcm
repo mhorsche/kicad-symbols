@@ -84,4 +84,10 @@ K Traco isolated DC/DC Converter module
 F http://www.tracopower.com/products/ten20win.pdf
 $ENDCMP
 #
+$CMP ULT-D48N-C
+D Thirty-Second-Brick Isolated DC/DC Converters
+K DCDC PoE
+F https://power.murata.com/datasheet?/data/power/ult.pdf
+$ENDCMP
+#
 #End Doc Library
