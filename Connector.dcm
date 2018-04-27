@@ -1038,6 +1038,12 @@ K connector SD microsd
 F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
 $ENDCMP
 #
+$CMP Microsemi_FlashPro-JTAG-10
+D ACTEL FLASH PRO 3/4, JTAG, IDC10 Male Connector
+K JTAG IDC10 Male Connector
+F https://www.microsemi.com/document-portal/doc_view/129973-lpf-ac386-an
+$ENDCMP
+#
 $CMP Mini-DIN-3
 D 3-pin Mini-DIN connector
 K Mini-DIN
