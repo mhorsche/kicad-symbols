@@ -192,4 +192,10 @@ K single instrumentation amp
 F http://cds.linear.com/docs/en/datasheet/1100fc.pdf
 $ENDCMP
 #
+$CMP LTC2053xMS8
+D Precision, Rail-to-Rail, Zero-Drift, Resistor-Programmable Instrumentation Amplifier
+K instrumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/2053syncfd.pdf
+$ENDCMP
+#
 #End Doc Library

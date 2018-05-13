@@ -198,24 +198,6 @@ K PCI 5V 3.3V 3V3
 F http://pinouts.ru/Slots/PCI_pinout.shtml
 $ENDCMP
 #
-$CMP C64AB
-D Connector Europe 64 contacts ranges A,B
-K connector DIN
-F  ~
-$ENDCMP
-#
-$CMP C64AC
-D Connector Europe 64 contacts, ranges A,B,C
-K connector DIN
-F  ~
-$ENDCMP
-#
-$CMP C96ABC
-D Connector Europe, 96 contacts, ranges A,B,C
-K connector
-F  ~
-$ENDCMP
-#
 $CMP CUI_PD-30
 D 3 pin connector, PD-30
 K connector 3-pin PD-30 power DIN
@@ -928,6 +910,36 @@ $CMP DIN-8
 D 8-pin DIN connector
 K circular DIN connector
 F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP DIN41612_C30ABC
+D Connector Europe, DIN41612, 30 contacts, ranges A,B,C
+K connector DIN41612
+F  ~
+$ENDCMP
+#
+$CMP DIN41612_C64AB
+D Connector Europe, DIN41612, 64 contacts, ranges A,B
+K connector DIN41612
+F  ~
+$ENDCMP
+#
+$CMP DIN41612_C64AC
+D Connector Europe, DIN41612, 64 contacts, ranges A,C
+K connector DIN41612
+F  ~
+$ENDCMP
+#
+$CMP DIN41612_C96ABC
+D Connector Europe, DIN41612, 96 contacts, ranges A,B,C
+K connector DIN41612
+F  ~
+$ENDCMP
+#
+$CMP DIN41612_H11
+D Connector Europe, DIN41612, 11 contacts
+K connector DIN41612
+F  ~
 $ENDCMP
 #
 $CMP HDMI_A
