@@ -90,7 +90,7 @@ ENDDEF
 DEF ULT-D48N-C U 0 40 Y Y 1 F N
 F0 "U" 0 375 50 H V C CNN
 F1 "ULT-D48N-C" 0 300 50 H V C CNN
-F2 "Converter_DCDC:Converter_DCDC_ULT-xxxx-D48N-C_THT" 0 -300 50 H I C CIN
+F2 "Converter_DCDC:Converter_DCDC_muRata_ULT-xxxx-D48N-C_THT" 0 -300 50 H I C CIN
 F3 "https://power.murata.com/datasheet?/data/power/ult.pdf" 0 -400 50 H I C CNN
 DRAW
 S -350 250 350 -250 0 1 10 f
