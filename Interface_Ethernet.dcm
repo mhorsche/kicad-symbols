@@ -6,6 +6,12 @@ K 9 port ethernet switch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/ks8999%20Data%20Sheet.pdf
 $ENDCMP
 #
+$CMP LAN8742A
+D RMII 10/100 Ethernet Transceiver
+K ethernet transceiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf
+$ENDCMP
+#
 $CMP LAN9512
 D USB 2.0 to 10/100 Ethernet Bridge with 2-port USB2.0 Hub
 K ethernet usb bridge
