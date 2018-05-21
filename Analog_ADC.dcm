@@ -4,6 +4,7 @@ $CMP AD7171
 D Single channel Analog to Digial Converter, 16-bit, differential input, 125Hz, SPI interface
 K sigma delta adc spi 1ch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7171.pdf
+$ENDCMP
 #
 $CMP LTC2203
 D LTC2203 16-Bit, 25Msps/10Msps ADCs
@@ -482,8 +483,9 @@ $CMP MCP3553-ESN
 D Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP-8
 K Sigma-Delta ADC Converter 22bit SPI 1ch
 F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
-=======
-$CMP TEXASINSTRUMENTS_ADS127L01IPBS
+$ENDCMP
+#
+$CMP ADS127L01
 D ADS127L01 24-Bit, High-Speed, Wide-Bandwidth Analog-to-Digital Converter
 K ADC 24bit 500kSPS
 F http://www.ti.com/lit/ds/symlink/ads127l01.pdf
