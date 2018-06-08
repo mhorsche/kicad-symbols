@@ -864,6 +864,12 @@ K connector male D-SUB
 F  ~
 $ENDCMP
 #
+$CMP DD21.0xxx.xxxx
+D Power entry modules without line filter
+K AC Power connector, IEC Appliance Inlet C14 with Line Switch 2-pole, Fuseholder 1- or 2-pole, for PCB mounting
+F https://www.schurter.com/en/datasheet/typ_DD21.pdf
+$ENDCMP
+#
 $CMP DIN-3
 D 3-pin DIN connector
 K circular DIN connector
@@ -1078,6 +1084,12 @@ $CMP Mini-DIN-8
 D 8-pin Mini-DIN connector
 K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
+$CMP NGFF_Key-B
+D NGFF (M.2) Key-B Card Edge Connector
+K ngff m.2 key b card edge connector
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199230&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
 $CMP RJ10
@@ -1540,6 +1552,11 @@ $CMP USB_A
 D USB Type A connector
 K connector USB
 F  ~
+$ENDCMP
+#
+$CMP USB_A_Dual
+D Dual USB 2.0 Type A
+K usb type a dual
 $ENDCMP
 #
 $CMP USB_B
