@@ -1044,6 +1044,12 @@ K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/ds/symlink/csd19537q3.pdf
 $ENDCMP
 #
+$CMP DMG1012T
+D N-channel Enhancement Mode MOSFET, ESD protected
+K ESD protected n-channel mosfet
+F https://www.diodes.com/assets/Datasheets/ds31783.pdf
+$ENDCMP
+#
 $CMP FDG1024NZ
 D 1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6
 K Dual N-Channel MOSFET Logic Level
@@ -1890,12 +1896,6 @@ K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
 $ENDCMP
 #
-$CMP Si2319CDS
-D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
-K P-Channel MOSFET
-F http://www.vishay.com/docs/66709/si2319cd.pdf
-$ENDCMP
-#
 $CMP STS2DNE60
 D 2A Id, 60V Vds, Dual N-Channel MOSFET, 180mOhm Ron, SO-8
 K Dual N-Channel MOSFET
@@ -1948,6 +1948,12 @@ $CMP SUD50P10-43L
 D 37A Id, 100V Vds, TrenchFET P-Channel Power MOSFET, 43mOhm Ron, 160nC Qg, -55 to 150 °C, TO-252-2
 K TrenchFET P-Channel Power MOSFET
 F https://www.vishay.com/docs/62504/sud50p10-43l-ge3.pdf
+$ENDCMP
+#
+$CMP Si2319CDS
+D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/66709/si2319cd.pdf
 $ENDCMP
 #
 $CMP Si4532DY
