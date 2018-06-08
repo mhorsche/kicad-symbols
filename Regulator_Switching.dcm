@@ -3294,6 +3294,12 @@ K Voltage regulator switching buck fixed output analog
 F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
 $ENDCMP
 #
+$CMP PAM2306AYP
+D Dual step-down current-mode, DC-DC converter
+K dual step down DCDC converter
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
 $CMP R-781.5-0.5
 D 500mA Step-Down DC/DC-Regulator, 4.75-30V input, 1.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
 K dc-dc recom Step-Down DC/DC-Regulator
@@ -5008,6 +5014,12 @@ $CMP TPS63061
 D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Fixed 5V Output Voltage, S-PWSON-10
 K Buck-Boost converter 5V
 F http://www.ti.com/lit/ds/symlink/tps63060.pdf
+$ENDCMP
+#
+$CMP TPS6500xxRUK
+D 2.25-MHz Step-Down Converter With Dual Low Dropouts and Supply Voltage Supervisor
+K Step-Down Dual LDOs SVS
+F http://www.ti.com/lit/ds/slvs810c/slvs810c.pdf
 $ENDCMP
 #
 $CMP TSR_1-2412
