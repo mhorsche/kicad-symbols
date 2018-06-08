@@ -162,6 +162,12 @@ K RGB LED NeoPixel addressable
 F https://www.adafruit.com/product/1938
 $ENDCMP
 #
+$CMP QLA694
+D 3mm Round Lamp with Bi-level Housing
+K LED dual
+F http://www.qt-brightek.com/datasheet/QLA694B-2X_series.pdf
+$ENDCMP
+#
 $CMP SFH4346
 D Infrared LED , 3mm LED package
 K opto IR LED
@@ -226,6 +232,18 @@ $CMP TSAL4400
 D Infrared LED , 3mm LED package
 K opto IR LED
 F http://www.vishay.com/docs/81006/tsal4400.pdf
+$ENDCMP
+#
+$CMP WP934EB
+D T-1 (3mm) Bi-Level Circuit Board Indicator
+K LED dual
+F http://www.kingbrightusa.com/images/catalog/SPEC/WP934EB-2ID.pdf
+$ENDCMP
+#
+$CMP WP934SA
+D T-1 (3mm) Tri-Level Circuit Board Indicator
+K LED tripple
+F http://www.kingbrightusa.com/images/catalog/SPEC/WP934SA-3ID.pdf
 $ENDCMP
 #
 $CMP WS2812
