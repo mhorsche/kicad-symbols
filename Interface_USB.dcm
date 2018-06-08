@@ -78,6 +78,12 @@ K USB-Serial single channel bridge
 F http://www.cypress.com/file/129956/download
 $ENDCMP
 #
+$CMP FSUSB42MUX
+D Low-Power, Two-Port, High-Speed, USB2.0 (480Mbps) UART Switch
+K USB two port switch
+F https://www.fairchildsemi.com/datasheets/FS/FSUSB42.pdf
+$ENDCMP
+#
 $CMP FT200XD
 D Full Speed USB to I2C Bridge, DFN-10
 K FTDI USB I2C Interface Converter
@@ -294,15 +300,27 @@ K USB Charge
 F http://www.ti.com/lit/ds/symlink/tps2513.pdf
 $ENDCMP
 #
+$CMP TPS2552D
+D Precision Adjustable Current-Limited Power-Distribution Switches
+K power switch current limited usb port
+F http://www.ti.com/lit/ds/symlink/tps2553d.pdf
+$ENDCMP
+#
+$CMP TPS2553D
+D Precision Adjustable Current-Limited Power-Distribution Switches
+K power switch current limited usb port
+F http://www.ti.com/lit/ds/symlink/tps2553d.pdf
+$ENDCMP
+#
 $CMP TPS2560
 D Dual channel precision adjustable current-limited power switches
-K power switche current limited usb port
+K power switch current limited usb port
 F http://www.ti.com/lit/ds/symlink/tps2560.pdf
 $ENDCMP
 #
 $CMP TPS2561
 D Dual channel precision adjustable current-limited power switches
-K power switche current limited usb port
+K power switch current limited usb port
 F http://www.ti.com/lit/ds/symlink/tps2561.pdf
 $ENDCMP
 #
