@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP2331
+D 0.2A Single channel current-limited load switch
+K power switch hot-swap
+F https://www.diodes.com/assets/Datasheets/AP2331.pdf
+$ENDCMP
+#
 $CMP CAT811JTBI-GT3
 D Power supply supervisor, Manual reset, Threshold 4.00V, SOT-143
 K Supervisor Reset
@@ -40,6 +46,12 @@ $CMP CAT811ZTBI-GT3
 D Power supply supervisor, Manual reset, Threshold 2.32V, SOT-143
 K Supervisor Reset
 F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
+$ENDCMP
+#
+$CMP INA219xD
+D 26-V, Bidirectional, Zero-Drift, High-Side, I2C Out Current/Power Monitor
+K current power monitor i2c
+F http://www.ti.com/lit/gpn/ina219
 $ENDCMP
 #
 $CMP LM3880
