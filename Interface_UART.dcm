@@ -183,6 +183,12 @@ K High-Speed 3.3V/5V RS-485/RS-422 Transceiver ESD 42Mbps
 F https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf
 $ENDCMP
 #
+$CMP MAX14858
+D 5kV isolated 25Mbps Full-Duplex RS-485/RS-422 Transceiver with 35kV ESD Protection
+K RS-485/RS-422 isolated transceiver esd protection
+F https://datasheets.maximintegrated.com/en/ds/MAX14856-MAX14858.pdf
+$ENDCMP
+#
 $CMP MAX1487E
 D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
 K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
