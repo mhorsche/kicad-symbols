@@ -6,12 +6,6 @@ K sigma delta adc spi 1ch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7171.pdf
 $ENDCMP
 #
-$CMP LTC2203
-D LTC2203 16-Bit, 25Msps/10Msps ADCs
-K ADC 16bit 25MSPS
-F http://www.analog.com/media/en/technical-documentation/data-sheets/22032fd.pdf
-$ENDCMP
-#
 $CMP AD7722
 D 16-Bit, 195 kSPS CMOS, Sigma-Delta ADC, MQFP-44
 K adc 1ch 16bit parallel serial
@@ -174,6 +168,12 @@ K delta-sigma adc low-power
 F http://www.ti.com/lit/ds/symlink/ads1251.pdf
 $ENDCMP
 #
+$CMP ADS127L01
+D ADS127L01 24-Bit, High-Speed, Wide-Bandwidth Analog-to-Digital Converter
+K ADC 24bit 500kSPS
+F http://www.ti.com/lit/ds/symlink/ads127l01.pdf
+$ENDCMP
+#
 $CMP ADS1298_TQFP
 D ADS1298 Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements, TQFP-64
 K 24bit ADC 8 Channels PGA SPI Biopotential
@@ -285,6 +285,12 @@ $CMP LTC1865L-S8
 D Dual channel 16-bit Analog to Digital Converter, 3V supply, 150ksps, SPI interface
 K sigma-delta adc 2ch
 F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
+$ENDCMP
+#
+$CMP LTC2203
+D LTC2203 16-Bit, 25Msps/10Msps ADCs
+K ADC 16bit 25MSPS
+F http://www.analog.com/media/en/technical-documentation/data-sheets/22032fd.pdf
 $ENDCMP
 #
 $CMP LTC2309_QFN
@@ -525,12 +531,6 @@ $CMP MCP3553-ESN
 D Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP-8
 K Sigma-Delta ADC Converter 22bit SPI 1ch
 F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
-$ENDCMP
-#
-$CMP ADS127L01
-D ADS127L01 24-Bit, High-Speed, Wide-Bandwidth Analog-to-Digital Converter
-K ADC 24bit 500kSPS
-F http://www.ti.com/lit/ds/symlink/ads127l01.pdf
 $ENDCMP
 #
 #End Doc Library
