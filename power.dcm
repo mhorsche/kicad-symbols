@@ -454,6 +454,36 @@ D positive voltage power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP VDD_12V
+D Power-Flag Supply Voltage +3.3V
+K power flag vdd +3.3V
+$ENDCMP
+#
+$CMP VDD_1V8
+D Power-Flag Supply Voltage +1.8V
+K power flag vdd +1.8V
+$ENDCMP
+#
+$CMP VDD_2V
+D Power-Flag Supply Voltage +1.8V
+K power flag vdd +1.8V
+$ENDCMP
+#
+$CMP VDD_2V5
+D Power-Flag Supply Voltage +1.8V
+K power flag vdd +1.8V
+$ENDCMP
+#
+$CMP VDD_3V3
+D Power-Flag Supply Voltage +3.3V
+K power flag vdd +3.3V
+$ENDCMP
+#
+$CMP VDD_5V
+D Power-Flag Supply Voltage +3.3V
+K power flag vdd +3.3V
+$ENDCMP
+#
 $CMP VEE
 D negative voltage power-flag symbol
 K Power Flag Symbol
