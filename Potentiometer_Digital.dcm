@@ -24,6 +24,12 @@ K R POT
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf
 $ENDCMP
 #
+$CMP AD8403
+D 4-Channel Digital Potentiometer, Serial, 256 Steps, 10 MHz
+K quad channel digital potentiometer poti
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8400_8402_8403.pdf
+$ENDCMP
+#
 $CMP DS1267_DIP
 D Dual Digital Potentiometer, Serial, 256 Steps, DIP-14
 K Dual Digital Potentiometer Maxim

@@ -2358,6 +2358,18 @@ K Boost flyback SEPIC inverting DC/DC regulator
 F http://cds.linear.com/docs/en/datasheet/3757Afe.pdf
 $ENDCMP
 #
+$CMP LT8570
+D Boost/SEPIC/Inverting DC/DC Converter with 65V Switch, Soft-Start and Synchronization
+K boost sepic dcdc converter 500mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/85701fa.pdf
+$ENDCMP
+#
+$CMP LT8570-1
+D Boost/SEPIC/Inverting DC/DC Converter with 65V Switch, Soft-Start and Synchronization
+K boost sepic dcdc converter 250mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/85701fa.pdf
+$ENDCMP
+#
 $CMP LT8610
 D 42V, 2.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, MSOP-16
 K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 2.5A

@@ -120,6 +120,30 @@ K IR LED
 F http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf
 $ENDCMP
 #
+$CMP KPT-1608EC
+D LED generic red
+K led diode red
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KPT-1608EC(Ver.23A).pdf
+$ENDCMP
+#
+$CMP KPT-1608QBC
+D LED generic blue
+K led diode blue
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KPT-1608QBC-D(Ver.21B).pdf
+$ENDCMP
+#
+$CMP KPT-1608SGC
+D LED generic green
+K led diode green
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KPT-1608SGC(Ver.27B).pdf
+$ENDCMP
+#
+$CMP KPT-1608YC
+D LED generic yellow
+K led diode yellow
+F http://www.kingbright.com/attachments/file/psearch/000/00/20160808bak/KPT-1608YC(Ver.19B).pdf
+$ENDCMP
+#
 $CMP LD271
 D 940nm IR-LED, 5mm
 K IR LED

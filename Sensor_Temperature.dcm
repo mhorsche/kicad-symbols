@@ -378,6 +378,12 @@ K platinum temperature sensor RTD
 F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
 $ENDCMP
 #
+$CMP PT100_4Wire
+D PT100 platinum temperature sensor (RTD)
+K platinum temperature sensor RTD
+F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
+$ENDCMP
+#
 $CMP PT500
 D PT500 platinum temperature sensor (RTD)
 K platinum temperature sensor RTD

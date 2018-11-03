@@ -85,32 +85,22 @@ D power-flag symbol +2.5V
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +2V5A
+D power-flag symbol +2.5V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +2V5REF
+D power-flag symbol +2.5V
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +2V8
 D power-flag symbol +2.8V
 K Power Flag Symbol
 $ENDCMP
 #
 $CMP +3.3V
-D power-flag symbol
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP +3.3VA
-D power-flag symbol
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP +3.3VADC
-D power-flag symbol
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP +3.3VDAC
-D power-flag symbol
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP +3.3VP
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -125,6 +115,11 @@ D power-flag symbol +3.3V
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +3V3A
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +3V8
 D power-flag symbol +3.8V
 K Power Flag Symbol
@@ -136,16 +131,6 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP +4V
-D power-flag symbol
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP +5C
-D power-flag symbol
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP +5F
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -185,7 +170,12 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP +7.5V
+$CMP +72V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +7V5
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -312,6 +302,11 @@ $ENDCMP
 #
 $CMP AC
 D power-flag symbol (alternating current)
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP COM
+D GROUND power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
@@ -454,38 +449,13 @@ D positive voltage power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP VDD_12V
-D Power-Flag Supply Voltage +3.3V
-K power flag vdd +3.3V
-$ENDCMP
-#
-$CMP VDD_1V8
-D Power-Flag Supply Voltage +1.8V
-K power flag vdd +1.8V
-$ENDCMP
-#
-$CMP VDD_2V
-D Power-Flag Supply Voltage +1.8V
-K power flag vdd +1.8V
-$ENDCMP
-#
-$CMP VDD_2V5
-D Power-Flag Supply Voltage +1.8V
-K power flag vdd +1.8V
-$ENDCMP
-#
-$CMP VDD_3V3
-D Power-Flag Supply Voltage +3.3V
-K power flag vdd +3.3V
-$ENDCMP
-#
-$CMP VDD_5V
-D Power-Flag Supply Voltage +3.3V
-K power flag vdd +3.3V
-$ENDCMP
-#
 $CMP VEE
 D negative voltage power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VIN
+D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #

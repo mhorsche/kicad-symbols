@@ -6,6 +6,24 @@ K single opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
 $ENDCMP
 #
+$CMP AD8055
+D Low Cost, 300 MHz Voltage Feedback Amplifiers
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8055_8056.pdf
+$ENDCMP
+#
+$CMP AD8061
+D Low Cost, 300 MHz, Rail-to-Rail Amplifier
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8061_8062_8063.pdf
+$ENDCMP
+#
+$CMP AD8138
+D Low Distortion, Differential ADC Driver
+K single differential opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8138.pdf
+$ENDCMP
+#
 $CMP AD8610
 D Single Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8
 K single opamp
@@ -360,6 +378,12 @@ K quad opamp
 F http://cds.linear.com/docs/en/datasheet/14923f.pdf
 $ENDCMP
 #
+$CMP LT6202
+D 100 MHz, Rail-to-Rail Input and Output, Ultralow 1.9nV/√Hz Noise, Low Power Op Amps
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/620234fd.pdf
+$ENDCMP
+#
 $CMP LT6233
 D Dual 60MHz, Rail-to-Rail Output, 1.9nV/√Hz, 1.2mA, Operational Amplifier, SOIC-8
 K dual opamp
@@ -412,6 +436,12 @@ $CMP LTC6242
 D Quad 18MHz, Low Noise, Rail-to-Rail Output, CMOS Op Amps
 K quad opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/624012fe.pdf
+$ENDCMP
+#
+$CMP LTC6246xS6
+D 180MHz, 1mA Power Efficient Rail-to-Rail I/O Op Amps
+K single opamp rail-to-rail
+F http://www.analog.com/media/en/technical-documentation/data-sheets/LTC6246-6247-6248.pdf
 $ENDCMP
 #
 $CMP LTC6253xMS8
@@ -906,6 +936,12 @@ K dual opamp
 F http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf
 $ENDCMP
 #
+$CMP OPA320xxDBV
+D Precision, 20-MHz, 0.9-pA, Low-Noise, RRIO, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa320.pdf
+$ENDCMP
+#
 $CMP OPA330xxD
 D 50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, SOIC
 K single opamp
@@ -1050,16 +1086,16 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/ne5532.pdf
 $ENDCMP
 #
-$CMP THS4551xRGT
-D Low-Noise, Precision, 150-MHz, Fully Differential Amplifier
-K single differential opamp
-F http://www.ti.com/lit/ds/symlink/ths4551.pdf
-$ENDCMP
-#
 $CMP SA5534
 D Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8
 K single opamp
 F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
+$CMP THS4551xRGT
+D Low-Noise, Precision, 150-MHz, Fully Differential Amplifier
+K single differential opamp
+F http://www.ti.com/lit/ds/symlink/ths4551.pdf
 $ENDCMP
 #
 $CMP THS4631D

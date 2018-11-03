@@ -300,6 +300,36 @@ K Precision Micropower Low Dropout Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/lm4125.pdf
 $ENDCMP
 #
+$CMP LM4140xCM-1.0
+D LM4140 High Precision Low Noise Low Dropout Voltage Reference
+K Low Noise Precision Voltage Reference 1.024 V
+F http://www.ti.com/lit/ds/symlink/lm4140.pdf
+$ENDCMP
+#
+$CMP LM4140xCM-1.2
+D LM4140 High Precision Low Noise Low Dropout Voltage Reference
+K Low Noise Precision Voltage Reference 1.25 V
+F http://www.ti.com/lit/ds/symlink/lm4140.pdf
+$ENDCMP
+#
+$CMP LM4140xCM-2.0
+D LM4140 High Precision Low Noise Low Dropout Voltage Reference
+K Low Noise Precision Voltage Reference 2.048 V
+F http://www.ti.com/lit/ds/symlink/lm4140.pdf
+$ENDCMP
+#
+$CMP LM4140xCM-2.5
+D LM4140 High Precision Low Noise Low Dropout Voltage Reference
+K Low Noise Precision Voltage Reference 2.5 V
+F http://www.ti.com/lit/ds/symlink/lm4140.pdf
+$ENDCMP
+#
+$CMP LM4140xCM-4.1
+D LM4140 High Precision Low Noise Low Dropout Voltage Reference
+K Low Noise Precision Voltage Reference 4.096 V
+F http://www.ti.com/lit/ds/symlink/lm4140.pdf
+$ENDCMP
+#
 $CMP LT6657AHMS8-2.5
 D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 2.5V output, MSOP-8
 K voltage reference vref

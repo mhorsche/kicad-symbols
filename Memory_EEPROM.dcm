@@ -378,6 +378,12 @@ K EEPROM memory SPI serial
 F http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040
 $ENDCMP
 #
+$CMP M24256
+D I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8
+K I2C Serial EEPROM
+F https://www.st.com/resource/en/datasheet/m24256-br.pdf
+$ENDCMP
+#
 $CMP M95256-WMN6P
 D SPI EEPROM, 256Kb (32K x 8), No Identification Page, 2.5 to 5.5V, SO8
 K SPI EEPROM

@@ -384,6 +384,12 @@ K high-voltage mosfet-driver hot-swap
 F http://www.ti.com/lit/ds/symlink/lm5060.pdf
 $ENDCMP
 #
+$CMP LM5069
+D Positive High-Voltage Hot Swap and In-Rush Current Controller with Power Limiting
+K hot swap current controller
+F http://www.ti.com/lit/ds/symlink/lm5069.pdf
+$ENDCMP
+#
 $CMP LMG3410
 D 600-V 12-A Integrated GaN Power Stage, RWH0032A
 K N-Channel GaN MOSFET
