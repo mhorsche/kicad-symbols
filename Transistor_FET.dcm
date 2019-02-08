@@ -1374,6 +1374,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
 $ENDCMP
 #
+$CMP IPD30N10S3L-34
+D 30A Id, 100V Vds, CoolMOS N-Channel Power MOSFET, 31mOhm Ron, 31nC Qg (typ), TO-252-3
+K CoolMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/Infineon-IPD30N10S3L_34-DS-v01_01-en.pdf?fileId=db3a30431a5c32f2011a908963135956
+$ENDCMP
+#
 $CMP IPD50R380CE
 D 14.1A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 380mOhm Ron, 24.8nC Qg (typ), TO-252-2
 K CoolMOS Power MOSFET N-MOS

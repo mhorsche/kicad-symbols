@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADG709
+D ADG709 Dual 4-to-1 Multiplexer, 1.8 V to 5.5 V/±2.5 V, 3 Ω
+K analog mux dual 4:1 low resistance 3Ω
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adg708_709.pdf
+$ENDCMP
+#
+$CMP ADG804
+D ADG804 4-Channel Multiplexer 0.5Ω CMOS 1.65V TO 3.6V
+K analog mux 4:1 low resistance 0.5Ω
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG804.pdf
+$ENDCMP
+#
+$CMP MAX14752EUE+
+D MAX14752EUE+
+K mux 8:1
+$ENDCMP
+#
+#End Doc Library

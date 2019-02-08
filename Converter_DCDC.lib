@@ -1,6 +1,64 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# CC3-xxxxDx-E
+#
+DEF CC3-xxxxDx-E U 0 40 Y Y 1 F N
+F0 "U" 0 375 50 H V C CNN
+F1 "CC3-xxxxDx-E" 0 300 50 H V C CNN
+F2 "Converter_DCDC:Converter_DCDC_TDK_CC3-xxxxxR-E" 0 -300 50 H I C CIN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/cc-e_e.pdf" 0 -400 50 H I C CNN
+DRAW
+S -350 250 350 -250 0 1 10 f
+P 2 0 1 0 -50 -150 -50 -200 N
+P 2 0 1 0 -50 -50 -50 -100 N
+P 2 0 1 0 -50 50 -50 0 N
+P 2 0 1 0 -50 150 -50 100 N
+P 2 0 1 0 -50 250 -50 200 N
+P 2 0 1 0 0 -250 0 -200 N
+P 2 0 1 0 0 -150 0 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 0 50 0 100 N
+P 2 0 1 0 0 150 0 200 N
+X +Vin 1 -450 200 100 R 50 50 1 1 W
+X RC 2 -450 -100 100 R 50 50 1 1 I
+X -Vin 3 -450 -200 100 R 50 50 1 1 W
+X -Vout 4 450 -200 100 L 50 50 1 1 w
+X COM 5 450 0 100 L 50 50 1 1 w
+X Trim 6 450 100 100 L 50 50 1 1 P
+X +Vout 7 450 200 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# CC3-xxxxSx-E
+#
+DEF CC3-xxxxSx-E U 0 40 Y Y 1 F N
+F0 "U" 0 375 50 H V C CNN
+F1 "CC3-xxxxSx-E" 0 300 50 H V C CNN
+F2 "Converter_DCDC:Converter_DCDC_TDK_CC3-xxxxxR-E" 0 -300 50 H I C CIN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/cc-e_e.pdf" 0 -400 50 H I C CNN
+DRAW
+S -350 250 350 -250 0 1 10 f
+P 2 0 1 0 -50 -150 -50 -200 N
+P 2 0 1 0 -50 -50 -50 -100 N
+P 2 0 1 0 -50 50 -50 0 N
+P 2 0 1 0 -50 150 -50 100 N
+P 2 0 1 0 -50 250 -50 200 N
+P 2 0 1 0 0 -250 0 -200 N
+P 2 0 1 0 0 -150 0 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 0 50 0 100 N
+P 2 0 1 0 0 150 0 200 N
+X +Vin 1 -450 200 100 R 50 50 1 1 W
+X RC 2 -450 -100 100 R 50 50 1 1 I
+X -Vin 3 -450 -200 100 R 50 50 1 1 W
+X NC 4 450 -200 100 L 50 50 1 1 N
+X -Vout 5 450 0 100 L 50 50 1 1 w
+X Trim 6 450 100 100 L 50 50 1 1 P
+X +Vout 7 450 200 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # DSN-Mini-360
 #
 DEF DSN-Mini-360 U 0 40 Y Y 1 F N

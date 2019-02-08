@@ -70,6 +70,21 @@ D power-flag symbol +1.8V
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +2.5VREF
+D +2.5V Reference Voltage
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +2.5VREF_ADS
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +2.5VREF_LTC
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +24V
 D power-flag symbol
 K Power Flag Symbol
@@ -90,32 +105,72 @@ D power-flag symbol +2.5V
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP +2V5REF
-D power-flag symbol +2.5V
-K Power Flag Symbol
-$ENDCMP
-#
 $CMP +2V8
 D power-flag symbol +2.8V
 K Power Flag Symbol
 $ENDCMP
 #
 $CMP +3.3V
-D power-flag symbol
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP +36V
-D power-flag symbol
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP +3V3
 D power-flag symbol +3.3V
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP +3V3A
+$CMP +3.3VA
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3VA_AC
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3VA_ADS
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3VA_DC
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3VA_LTC
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3VA_TEMP
+D +3.3VA Analog Voltage Temperature Sensing
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3VAa
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3VAb
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3V_ADS
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3V_ETH
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3V_LTC
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +36V
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -240,17 +295,47 @@ D power-flag symbol -2.5V
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP -3.3V
+D power-flag symbol -3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -3.3VA
+D power-flag symbol -3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -3.3VA_AC
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -3.3VA_DC
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -3.3VAa
+D power-flag symbol -3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -3.3VAb
+D power-flag symbol -3.3V
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP -36V
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP -3V3
-D power-flag symbol -3.3V
+$CMP -48V
+D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP -48V
+$CMP -4V
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -261,6 +346,16 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP -5VA
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -5VAa
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -5VAb
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -338,7 +433,42 @@ D (analog) ground power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP GNDA_AC
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GNDA_ADS
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GNDA_DC
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GNDA_LTC
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GNDA_TEMP
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP GNDD
+D (digital) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GNDD_ADS
+D (digital) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GNDD_LTC
 D (digital) ground power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -355,6 +485,26 @@ $ENDCMP
 #
 $CMP GNDS
 D (signal) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_ADS
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_ETH
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_LTC
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_POE
+D GROUND power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
@@ -446,6 +596,11 @@ $ENDCMP
 #
 $CMP VDDF
 D positive voltage power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VDD_POE
+D VDD Power over Ethernet
 K Power Flag Symbol
 $ENDCMP
 #

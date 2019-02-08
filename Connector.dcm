@@ -960,6 +960,12 @@ K connector DIN41612
 F  ~
 $ENDCMP
 #
+$CMP EDAC_A70-112-331N126
+D LAN Transformer Jack, RJ45, 10/100/1000 BaseT and PoE
+K lan jack transformer poe
+F http://files.edac.net/A70-112-331N126.pdf
+$ENDCMP
+#
 $CMP HDMI_A
 D HDMI type A connector
 K hdmi conn

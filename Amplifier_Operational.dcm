@@ -66,6 +66,12 @@ K quad opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
 $ENDCMP
 #
+$CMP ADA4898-2YRDZ
+D High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4898-1_4898-2.pdf
+$ENDCMP
+#
 $CMP CA3080
 D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1, DIP-8/SOIC-8
 K operational transconductance amplifier ota

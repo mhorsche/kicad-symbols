@@ -882,4 +882,10 @@ K Triple Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP NC7SV86
+D Single EX-OR Gate, Low-Voltage CMOS
+K Single Gate EX-OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 #End Doc Library

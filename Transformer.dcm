@@ -6,6 +6,18 @@ K Transformer LAN PoE
 F https://katalog.we-online.de/pbs/datasheet/749013011A.pdf
 $ENDCMP
 #
+$CMP 7490220120
+D LAN-Transformer PoE 7490220120, 15W on two channels, 30W on four channels
+K Transformer LAN PoE
+F https://katalog.we-online.de/pbs/datasheet/7490220120.pdf
+$ENDCMP
+#
+$CMP 749022016
+D LAN-Transformer PoE+ AEDFP-G24
+K Transformer LAN PoE
+F https://katalog.we-online.de/icref/datasheet/749022016.pdf
+$ENDCMP
+#
 $CMP ADT1-1
 D 0.15-400MHz 1:1 RF Transformer, Balanced to Balanced, CD542
 K Mini-Circuits RF Transformer
@@ -331,6 +343,11 @@ F http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
 $ENDCMP
 #
 $CMP TRANSFO-POE
+D LAN-Transformer PoE
+K Transformer LAN PoE
+$ENDCMP
+#
+$CMP TRANSFO-POE+
 D LAN-Transformer PoE
 K Transformer LAN PoE
 $ENDCMP

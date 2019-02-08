@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 744230900
+D WE-CNSW SMD Common Mode
+K EMI filter WE-CNSW
+F https://katalog.we-online.de/pbs/datasheet/744230900.pdf
+$ENDCMP
+#
+$CMP 744231091
+D WE-CNSW SMD Common Mode
+K EMI filter WE-CNSW
+F https://katalog.we-online.de/pbs/datasheet/744231091.pdf
+$ENDCMP
+#
+$CMP 744232090
+D WE-CNSW SMD Common Mode
+K EMI filter WE-CNSW
+F https://katalog.we-online.de/pbs/datasheet/744232090.pdf
+$ENDCMP
+#
+$CMP 744235900
+D WE-CNSW SMD Common Mode
+K EMI filter WE-CNSW
+F https://katalog.we-online.com/pbs/datasheet/744235900.pdf
+$ENDCMP
+#
 $CMP Amperemeter_AC
 D AC Amperemeter
 K Amperemeter AC
@@ -868,6 +892,12 @@ $CMP LTRIM
 D Variable Inductor
 K inductor choke coil reactor magnetic
 F ~
+$ENDCMP
+#
+$CMP L_CommonMode_WE-UCF
+D Common Mode Line WE-UCF
+K WE-UCF SMD Common Mode Line
+F https://katalog.we-online.de/en/pbs/WE-UCF
 $ENDCMP
 #
 $CMP L_Core_Ferrite

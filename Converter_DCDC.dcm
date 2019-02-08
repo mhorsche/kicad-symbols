@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CC3-xxxxDx-E
+D Insulation type DC-DC converter
+K DCDC PoE Dual Outputs
+F https://product.tdk.com/info/en/catalog/datasheets/cc-e_e.pdf
+$ENDCMP
+#
+$CMP CC3-xxxxSx-E
+D Insulation type DC-DC converter
+K DCDC PoE
+F https://product.tdk.com/info/en/catalog/datasheets/cc-e_e.pdf
+$ENDCMP
+#
 $CMP DSN-Mini-360
 D 3A, 23V, 340KHz Synchronous Rectified Step-Down Converter
 K DCDC Step-Down

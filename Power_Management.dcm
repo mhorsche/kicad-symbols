@@ -672,6 +672,30 @@ K efuse protection switch
 F http://www.ti.com/lit/ds/symlink/tps25925.pdf
 $ENDCMP
 #
+$CMP TPS7A3001DGN
+D Vin -3V to -36V, -200mA, Ultra-Low-Noise, High-PSRR, Low-Dropout (LDO) Linear Regulator
+K LDO negative
+F http://www.ti.com/lit/ds/symlink/tps7a30.pdf
+$ENDCMP
+#
+$CMP TPS7A3001DRB
+D Vin -3V to -36V, -200mA, Ultra-Low-Noise, High-PSRR, Low-Dropout (LDO) Linear Regulator
+K LDO negative
+F http://www.ti.com/lit/ds/symlink/tps7a30.pdf
+$ENDCMP
+#
+$CMP TPS7A3301RGW
+D LDO –36-V, 1-A, Ultralow-Noise Negative Voltage Regulator
+K LDO negative
+F http://www.ti.com/lit/ds/symlink/tps7a33.pdf
+$ENDCMP
+#
+$CMP TPS7A3901DSC
+D TPS7A39 Dual, 150-mA, Wide VIN Positive and Negative LDO Voltage Regulator
+K Dual LDO positive/negative
+F http://www.ti.com/lit/ds/symlink/tps7a39.pdf
+$ENDCMP
+#
 $CMP TPS7A470x
 D LDO Voltage Regulator 36V/1A and 4µVRMS
 K LDO
