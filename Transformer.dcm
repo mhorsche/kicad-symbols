@@ -16,6 +16,7 @@ $CMP 749022016
 D LAN-Transformer PoE+ AEDFP-G24
 K Transformer LAN PoE
 F https://katalog.we-online.de/icref/datasheet/749022016.pdf
+$ENDCMP
 #
 $CMP 5400BL15B050
 D 4.9-5.9GHz 1:1 RF Transformer, Unbalanced to Balanced
@@ -517,6 +518,7 @@ $ENDCMP
 $CMP TRANSFO-POE+
 D LAN-Transformer PoE
 K Transformer LAN PoE
+$ENDCMP
 #
 $CMP TG111-MSC13LF
 D Single Port Gigabit Ethernet Transformers

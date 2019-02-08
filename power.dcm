@@ -5,26 +5,6 @@ D Power flag, +10V
 K power-flag
 $ENDCMP
 #
-$CMP +12C
-D Power flag, +12C
-K power-flag
-$ENDCMP
-#
-$CMP +12L
-D Power flag, +12L
-K power-flag
-$ENDCMP
-#
-$CMP +12LF
-D Power flag, +12LF
-K power-flag
-$ENDCMP
-#
-$CMP +12P
-D Power flag, +12P
-K power-flag
-$ENDCMP
-#
 $CMP +12V
 D Power flag, +12V
 K power-flag
@@ -40,33 +20,8 @@ D Power flag, +15V
 K power-flag
 $ENDCMP
 #
-$CMP +1V0
-D Power flag, +1.0V
-K power-flag
-$ENDCMP
-#
-$CMP +1V1
-D Power flag, +1.1V
-K power-flag
-$ENDCMP
-#
-$CMP +1V2
-D Power flag, +1.2V
-K power-flag
-$ENDCMP
-#
-$CMP +1V35
-D Power flag, +1.35V
-K power-flag
-$ENDCMP
-#
-$CMP +1V5
-D Power flag, +1.5V
-K power-flag
-$ENDCMP
-#
-$CMP +1V8
-D Power flag, +1.8V
+$CMP +15VA
+D Power flag, +15V
 K power-flag
 $ENDCMP
 #
@@ -92,21 +47,6 @@ $ENDCMP
 #
 $CMP +28V
 D Power flag, +28V
-K power-flag
-$ENDCMP
-#
-$CMP +2V5
-D Power flag, +2.5V
-K power-flag
-$ENDCMP
-#
-$CMP +2V5A
-D power-flag symbol +2.5V
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP +2V8
-D Power flag, +2.8V
 K power-flag
 $ENDCMP
 #
@@ -175,11 +115,6 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
-$CMP +3V8
-D power-flag symbol +3.8V
-K Power Flag Symbol
-$ENDCMP
-#
 $CMP +48V
 D power-flag symbol
 K Power Flag Symbol
@@ -188,11 +123,6 @@ $ENDCMP
 $CMP +4V
 D power-flag symbol
 K Power Flag Symbol
-$ENDCMP
-#
-$CMP +5P
-D Power flag, +5P
-K power-flag
 $ENDCMP
 #
 $CMP +5V
@@ -210,27 +140,12 @@ D Power flag, +5VD
 K power-flag
 $ENDCMP
 #
-$CMP +5VL
-D Power flag, +5VL
-K power-flag
-$ENDCMP
-#
-$CMP +5VP
-D Power flag, +5VP
-K power-flag
-$ENDCMP
-#
 $CMP +6V
 D Power flag, +6V
 K power-flag
 $ENDCMP
 #
 $CMP +72V
-D power-flag symbol
-K Power Flag Symbol
-$ENDCMP
-#
-$CMP +7V5
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -287,11 +202,6 @@ $ENDCMP
 #
 $CMP -24V
 D Power flag, -24V
-K power-flag
-$ENDCMP
-#
-$CMP -2V5
-D Power flag, -2.5V
 K power-flag
 $ENDCMP
 #
@@ -536,12 +446,6 @@ $ENDCMP
 $CMP PRI_MID
 D Power flag, primary middle
 K power-flag
-$ENDCMP
-#
-$CMP PWR_FLAG
-D Power flag, general
-K power-flag
-F ~
 $ENDCMP
 #
 $CMP VAA

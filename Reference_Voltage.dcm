@@ -352,6 +352,7 @@ $CMP LM4140xCM-4.1
 D LM4140 High Precision Low Noise Low Dropout Voltage Reference
 K Low Noise Precision Voltage Reference 4.096 V
 F http://www.ti.com/lit/ds/symlink/lm4140.pdf
+$ENDCMP
 #
 $CMP LM4128
 D 2.5V ±0.2% Precision Micropower Low Dropout Voltage Reference, SOT-23-5

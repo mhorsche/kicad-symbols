@@ -28,6 +28,7 @@ $CMP TPS2372
 D TPS2372 High-Power PoE PD Interface with Automatic MPS and Autoclass
 K Power Over Ethernet Controller 1 Channel 802.3at (PoE+), 802.3bt 20-VQFN (5x5)
 F http://www.ti.com/lit/ds/symlink/tps2372.pdf
+$ENDCMP
 #
 $CMP ENC28J60x-SP
 D ENC28J60 Single Chip Ethernet Interface,SPDIP

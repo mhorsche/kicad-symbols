@@ -346,6 +346,7 @@ $CMP IRM-60-5
 D 5V 60W miniature AC-DC module-type power supply MeanWell
 K 5V 60W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=687
+$ENDCMP
 #
 $CMP IRM-20-12
 D 12V 1.8A 20W miniature AC-DC module-type power supply MeanWell

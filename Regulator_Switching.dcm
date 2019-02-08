@@ -5362,6 +5362,7 @@ $CMP TPS6500xxRUK
 D 2.25-MHz Step-Down Converter With Dual Low Dropouts and Supply Voltage Supervisor
 K Step-Down Dual LDOs SVS
 F http://www.ti.com/lit/ds/slvs810c/slvs810c.pdf
+$ENDCMP
 #
 $CMP TPS82130
 D 17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8

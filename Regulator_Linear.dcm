@@ -520,6 +520,7 @@ $CMP AP7315-2.5
 D 150mA low dropout linear regulator, 2.5V fixed positive output, SOT-23-5
 K linear regulator ldo fixed positive
 F https://www.diodes.com/assets/Datasheets/AP7315.pdf
+$ENDCMP
 #
 $CMP AP7361C-10E
 D 1A Low Dropout regulator, positive, 1.0V fixed output, SOT-223

@@ -1222,6 +1222,7 @@ $CMP DMG1012T
 D N-channel Enhancement Mode MOSFET, ESD protected
 K ESD protected n-channel mosfet
 F https://www.diodes.com/assets/Datasheets/ds31783.pdf
+$ENDCMP
 #
 $CMP DMG2302U
 D 4.2 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
@@ -2283,6 +2284,7 @@ $CMP IRLML0100
 D 100V Vds, 1.3A Id, N-channel MOSFET, SOT-23
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/irlml0100pbf.pdf?fileId=5546d462533600a4015356649d9225e8
+$ENDCMP
 #
 $CMP IRLML6402
 D -3.7A Id, -20V Vds, P-channel MOSFET, 65mOhm Rds, SOT-23

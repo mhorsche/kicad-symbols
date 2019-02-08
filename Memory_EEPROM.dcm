@@ -382,6 +382,7 @@ $CMP M24256
 D I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8
 K I2C Serial EEPROM
 F https://www.st.com/resource/en/datasheet/m24256-br.pdf
+$ENDCMP
 #
 $CMP M24C01-FDW
 D 1Kb (128x8) I2C Serial EEPROM, 1.6-5.5V, TSSOP-8

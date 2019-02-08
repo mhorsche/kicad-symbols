@@ -148,6 +148,7 @@ $CMP KPT-1608YC
 D LED generic yellow
 K led diode yellow
 F http://www.kingbright.com/attachments/file/psearch/000/00/20160808bak/KPT-1608YC(Ver.19B).pdf
+$ENDCMP
 #
 $CMP Inolux_IN-PI554FCH
 D 5050 RGB LED 4-Pin with integrated IC

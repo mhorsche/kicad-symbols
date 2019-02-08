@@ -16,6 +16,7 @@ $CMP DSN-Mini-360
 D 3A, 23V, 340KHz Synchronous Rectified Step-Down Converter
 K DCDC Step-Down
 F http://www.mouser.com/ds/2/277/MP2307_r1.9-371737.pdf
+$ENDCMP
 #
 $CMP ATA00A18S-L
 D Artesyn 3W Isolated DC/DC Converter Module, 5V Output Voltage, 9-36V Input Voltage
@@ -2463,6 +2464,7 @@ $CMP ULT-D48N-C
 D Thirty-Second-Brick Isolated DC/DC Converters
 K DCDC PoE
 F https://power.murata.com/datasheet?/data/power/ult.pdf
+$ENDCMP
 #
 $CMP TMR-0510
 D 500mA Regulated 2W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 3.3V fixed Output Voltage, SIP-8
