@@ -50,6 +50,36 @@ D Power flag, +28V
 K power-flag
 $ENDCMP
 #
+$CMP +3.0V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.0VA
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.0VA_ADS
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.0VA_DC
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.0VAa
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.0VAb
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +3.3V
 D power-flag symbol +3.3V
 K Power Flag Symbol
@@ -135,6 +165,26 @@ D Power flag, +5VA
 K power-flag
 $ENDCMP
 #
+$CMP +5VA_AC
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5VA_DC
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5VAa
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5VAb
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +5VD
 D Power flag, +5VD
 K power-flag
@@ -142,6 +192,11 @@ $ENDCMP
 #
 $CMP +6V
 D Power flag, +6V
+K power-flag
+$ENDCMP
+#
+$CMP +6VA
+D Power flag, +5VA
 K power-flag
 $ENDCMP
 #
@@ -260,6 +315,16 @@ D Power flag, -5VA
 K power-flag
 $ENDCMP
 #
+$CMP -5VA_AC
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -5VA_DC
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP -5VAa
 D power-flag symbol
 K Power Flag Symbol
@@ -272,6 +337,21 @@ $ENDCMP
 #
 $CMP -6V
 D Power flag, -6V
+K power-flag
+$ENDCMP
+#
+$CMP -6VA
+D Power flag, -5V
+K power-flag
+$ENDCMP
+#
+$CMP -6VAa
+D Power flag, -5V
+K power-flag
+$ENDCMP
+#
+$CMP -6VAb
+D Power flag, -5V
 K power-flag
 $ENDCMP
 #
