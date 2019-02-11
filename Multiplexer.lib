@@ -8,6 +8,7 @@ F0 "U" -400 550 50 H V L CNN
 F1 "ADG709" 400 550 50 H V R CNN
 F2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" 50 -550 50 H I C CNN
 F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/adg708_709.pdf" 0 -650 50 H I C CNN
+ALIAS ADG1609
 $FPLIST
  *TSSOP?16*4.4x5mm*P0.65mm*
 $ENDFPLIST
