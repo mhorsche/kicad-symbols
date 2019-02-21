@@ -405,16 +405,16 @@ K differential PECL reciver
 F http://www.ti.com/lit/ds/symlink/tb5r1.pdf
 $ENDCMP
 #
-$CMP TUSB9261
-D USB 3.0 to SATA Bridge
-K USB SATA bridge interface converter
-F http://www.ti.com/lit/ds/symlink/tusb9261.pdf
-$ENDCMP
-#
 $CMP TCA9406DC
 D 2-Bit Bidirectional 1-MHz, I2C Bus and SMBus Voltage-Level Translator With 8-kV HBM ESD
 K Bidirectional 1-MHz I2C SMBus Voltage-Level Translator 8kV HBM ESD
 F www.ti.com/lit/ds/symlink/tca9406.pdf
+$ENDCMP
+#
+$CMP TUSB9261
+D USB 3.0 to SATA Bridge
+K USB SATA bridge interface converter
+F http://www.ti.com/lit/ds/symlink/tusb9261.pdf
 $ENDCMP
 #
 $CMP U2270B
