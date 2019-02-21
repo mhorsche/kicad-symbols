@@ -105,6 +105,11 @@ D ADS127L01 +3.3V
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +3.3VA_ETH
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +3.3VA_LTC
 D ADS127L01 +3.3V
 K Power Flag Symbol
@@ -137,6 +142,11 @@ $ENDCMP
 #
 $CMP +3.3V_LTC
 D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3V_RS485
+D power-flag symbol +3.3V
 K Power Flag Symbol
 $ENDCMP
 #
@@ -496,6 +506,11 @@ $ENDCMP
 $CMP GND_POE
 D GROUND power-flag symbol
 K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_RS485
+D Power flag, ground
+K power-flag
 $ENDCMP
 #
 $CMP HT
