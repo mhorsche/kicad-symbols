@@ -90,6 +90,12 @@ K ad8236 instumentation amplifier msop-8
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8236.pdf
 $ENDCMP
 #
+$CMP AD8253
+D 10 MHz, G = 1, 10, 100, 1000 iCMOS® Programmable Gain Instrumentation Amplifier
+K single instrumentation amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8253.pdf
+$ENDCMP
+#
 $CMP AD8421
 D Single Low Power Instrumentation Amplifier, SOIC-8/MSOP-8
 K single instumentation amplifier

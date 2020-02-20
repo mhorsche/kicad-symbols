@@ -3690,6 +3690,18 @@ K Adjustable 1.1A Low Dropout Regulator
 F http://cds.linear.com/docs/en/datasheet/3080fc.pdf
 $ENDCMP
 #
+$CMP LTC3265xDHC
+D Low Noise Dual Supply with Boost and Inverting Charge Pumps
+K IC REG SWTCHD CAP INV 0.1A 18DFN
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3265fa.pdf
+$ENDCMP
+#
+$CMP LTC3265xFE
+D Low Noise Dual Supply with Boost and Inverting Charge Pumps
+K IC REG SWTCHD CAP INV 20TSSOP
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3265fa.pdf
+$ENDCMP
+#
 $CMP MAX1658ESA
 D 350mA Linear LDO Regulator, Fixed Output 3.3V, SO-8
 K Linear LDO Regulator 350mA 3.3V

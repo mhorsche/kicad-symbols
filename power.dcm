@@ -5,6 +5,11 @@ D Power flag, +10V
 K power-flag
 $ENDCMP
 #
+$CMP +10VAa
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +12V
 D Power flag, +12V
 K power-flag
@@ -12,6 +17,26 @@ $ENDCMP
 #
 $CMP +12VA
 D Power flag, +12VA
+K power-flag
+$ENDCMP
+#
+$CMP +12VA_PID
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +12VAa
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +13V
+D Power flag, +12V
+K power-flag
+$ENDCMP
+#
+$CMP +13VA
+D Power flag, +12V
 K power-flag
 $ENDCMP
 #
@@ -95,6 +120,14 @@ D ADS127L01 +3.3V
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +3.3VA_AD5
+D Analog +3.3V, AD5640
+$ENDCMP
+#
+$CMP +3.3VA_AD9
+D Analog +3.3V, AD9744
+$ENDCMP
+#
 $CMP +3.3VA_ADS
 D ADS127L01 +3.3V
 K Power Flag Symbol
@@ -115,6 +148,11 @@ D ADS127L01 +3.3V
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +3.3VA_PID
+D ADS127L01 +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +3.3VA_TEMP
 D +3.3VA Analog Voltage Temperature Sensing
 K Power Flag Symbol
@@ -128,6 +166,10 @@ $ENDCMP
 $CMP +3.3VAb
 D power-flag symbol
 K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3V_AD9
+D Digital +3.3V, AD9744
 $ENDCMP
 #
 $CMP +3.3V_ADS
@@ -185,6 +227,11 @@ D ADS127L01 +3.3V
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +5VA_PID
+D +5.0V PID
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +5VAa
 D power-flag symbol
 K Power Flag Symbol
@@ -206,6 +253,16 @@ K power-flag
 $ENDCMP
 #
 $CMP +6VA
+D Power flag, +5VA
+K power-flag
+$ENDCMP
+#
+$CMP +6VAa
+D Power flag, +5VA
+K power-flag
+$ENDCMP
+#
+$CMP +6VAb
 D Power flag, +5VA
 K power-flag
 $ENDCMP
@@ -250,6 +307,10 @@ D Power flag, -10V
 K power-flag
 $ENDCMP
 #
+$CMP -10VAa
+D Analog -10V
+$ENDCMP
+#
 $CMP -12V
 D Power flag, -12V
 K power-flag
@@ -257,6 +318,20 @@ $ENDCMP
 #
 $CMP -12VA
 D Power flag, -12VA
+K power-flag
+$ENDCMP
+#
+$CMP -12VA_PID
+D Analog -12V, PID Control
+$ENDCMP
+#
+$CMP -12VAa
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -13VAa
+D Power flag, -5V
 K power-flag
 $ENDCMP
 #
@@ -438,6 +513,15 @@ D GROUND power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP GNDA_AD5
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GNDA_AD9
+D Analog Ground, AD9744
+$ENDCMP
+#
 $CMP GNDA_ADS
 D GROUND power-flag symbol
 K Power Flag Symbol
@@ -453,6 +537,11 @@ D GROUND power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP GNDA_PID
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP GNDA_TEMP
 D GROUND power-flag symbol
 K Power Flag Symbol
@@ -461,6 +550,10 @@ $ENDCMP
 $CMP GNDD
 D Power flag, digital ground
 K power-flag
+$ENDCMP
+#
+$CMP GNDD_AD9
+D Digital Ground, AD9744
 $ENDCMP
 #
 $CMP GNDD_ADS
@@ -489,6 +582,11 @@ K power-flag
 $ENDCMP
 #
 $CMP GND_ADS
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_BP
 D GROUND power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -618,8 +716,28 @@ D Power flag, memory power supply
 K power-flag
 $ENDCMP
 #
+$CMP VOS
+D Power flag, VOS (offset)
+K power-flag
+$ENDCMP
+#
 $CMP VPP
 D Power flag, programming voltage
+K power-flag
+$ENDCMP
+#
+$CMP VREF
+D Power flag, VREF
+K power-flag
+$ENDCMP
+#
+$CMP VREF1
+D Power flag, VREF
+K power-flag
+$ENDCMP
+#
+$CMP VREF2
+D Power flag, VREF
 K power-flag
 $ENDCMP
 #

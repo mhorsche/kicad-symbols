@@ -2292,6 +2292,12 @@ K P-Channel MOSFET
 F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
 $ENDCMP
 #
+$CMP IRLR2908TRPBF
+D 30A Id, 80V Vds, HEXFET N-Channel Power MOSFET, 28mOhm Ron, 33nC Qg (typ), TO-252-3
+K HEXFET Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/irlr2908pbf.pdf?fileId=5546d462533600a40153566cdace2681
+$ENDCMP
+#
 $CMP IRLZ34N
 D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 35mOhm Ron, TO-220AB
 K Single N-Channel HEXFET Power MOSFET

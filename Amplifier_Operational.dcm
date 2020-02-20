@@ -30,6 +30,12 @@ K single opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8061_8062_8063.pdf
 $ENDCMP
 #
+$CMP AD8066
+D High Performance, 145 MHz FastFET Op Amps
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8065_8066.pdf
+$ENDCMP
+#
 $CMP AD8138
 D Low Distortion, Differential ADC Driver
 K single differential opamp
@@ -52,6 +58,12 @@ $CMP AD8620
 D Dual Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8
 K dual opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf
+$ENDCMP
+#
+$CMP AD8675
+D 36 V Precision, 2.8 nV/√Hz Rail-to-Rail Output Op Amp
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8675.pdf
 $ENDCMP
 #
 $CMP ADA4075-2
@@ -100,6 +112,12 @@ $CMP ADA4870ARRZ
 D High Speed, High Voltage, 1A Output Drive Amplifier, PSOP-20
 K single opamp
 F www.analog.com/media/en/technical-documentation/data-sheets/ADA4870.pdf
+$ENDCMP
+#
+$CMP ADA4896-2ARMZ
+D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4896-2_4897-1_4897-2.PDF
 $ENDCMP
 #
 $CMP ADA4898-1YRDZ
@@ -530,8 +548,8 @@ $ENDCMP
 #
 $CMP LTC6246xS6
 D 180MHz, 1mA Power Efficient Rail-to-Rail I/O Op Amps
-K single opamp rail-to-rail
-F http://www.analog.com/media/en/technical-documentation/data-sheets/LTC6246-6247-6248.pdf
+K IC OPAMP GP 180MHZ RRO TSOT23-6
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6246-6247-6248.pdf
 $ENDCMP
 #
 $CMP LTC6253xMS8

@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5144
+D 4-Channel Digital Potentiometer, Serial, 256 Steps, 10 MHz
+K quad channel digital potentiometer poti
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5124_5144_5144A.pdf
+$ENDCMP
+#
 $CMP AD5280
 D Digital potentiometer, 256 position, single output, I2C interface
 K digital potentiometer
